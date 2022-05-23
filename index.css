@@ -2,12 +2,35 @@
 
 * {
     font-family: 'Federo', sans-serif;
+    background-color: rgb(153, 17, 17);
+    color: azure;
 }
 
-#coretools {
-    height: 500px;
+body {
+    background-color: black;
 }
 
-#othertools {
-    height: 500px;
+nav {  
+    background-color: rgb(158, 50, 50);
+    color: white;
+}
+
+#navbarNav .nav-item {
+    text-align: left;
+}
+
+nav li a:hover {
+    background-color: rgb(243, 181, 181);
+  }
+
+nav div a:hover{
+    background-color: rgb(243, 181, 181);
+}
+
+#coretools img {
+    width: 150px;
+}
+
+#othertools img {
+    width: 150px;
 }
