@@ -1,20 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
 
-*{
+* {
     font-family: 'Federo', sans-serif;
-    background-color: #242323;
-    color: rgb(233, 206, 206);
 }
 
-/* li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+#coretools {
+    height: 500px;
 }
 
-li a:hover {
-    background-color: rgb(253, 108, 108);
-} */
-
+#othertools {
+    height: 500px;
+}
