@@ -13,7 +13,7 @@
     </head>
 <body>
 <!-- Start of Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top text-white ">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#intro">KatieR</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,6 @@
 <!-- End of Navbar -->
 
 <!--Introduction -->
-    <div class="container">
         <div id="intro" class="text-center bg-success">
             <h1>Kate Stephanie Reyes</h1>
             <div class="container-fluid">
@@ -78,7 +77,7 @@
         </div>
     </div>
 <!-- Tools -->
-        <div class="container-fluid">
+        <div id="tools" class="container-fluid">
             <!-- Core Tools -->
             <div class="my-3 d-flex flex-column justify-content-center align-items-center">
                     <h3 id="coretools" class="text-center">Core Tools</h3>
@@ -137,12 +136,36 @@
                         <label for="comment">Message</label>
                         <textarea class="form-control" id="comment" cols="30" rows="10"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-outline-danger btn-block">Send</button>
+                    <button type="submit" class="btn btn-outline-danger btn-block" data-bs-toggle="modal" data-bs-target="#exampleModal">Send</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Thank you!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            We'll get back to you. 
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
                 </form> 
             </div>
         </div>    
-    </div> 
       <!--Java Script  -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+<footer class="footer mt-5 p-2">
+    <div class="container mt-2 text-white">
+        <ul>
+            <p class="text-center">Terms and Condition</p>
+            <p class="text-center">© All Rights Reserved 2021</p>
+        </ul>
+    </div>
+</footer>
 </html>
